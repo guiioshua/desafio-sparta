@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 from pytest import approx
-from desafio_target.api.main import app
+from desafio_sparta.api.main import app
 
 client = TestClient(app)
 

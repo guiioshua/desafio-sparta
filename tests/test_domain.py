@@ -1,5 +1,5 @@
 import numpy as np
-from desafio_target.domain.services import calcular_taxa_administracao
+from desafio_sparta.domain.services import calcular_taxa_administracao
 
 def test_fee_calculation_with_numpy():
     """

@@ -1,4 +1,4 @@
-from desafio_target.domain.services import calcular_taxa_administracao
+from desafio_sparta.domain.services import calcular_taxa_administracao
 from typing import List, Dict, Any
 
 def processar_request_taxa(taxa: float, cotas: List[Dict[str, Any]]) -> List[float]:

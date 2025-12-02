@@ -1,8 +1,8 @@
 from typing import List
 from fastapi import APIRouter
 
-from desafio_target.api.schemas import RequisicaoTaxa, RespostaTaxa
-from desafio_target.application.services import processar_request_taxa
+from desafio_sparta.api.schemas import RequisicaoTaxa, RespostaTaxa
+from desafio_sparta.application.services import processar_request_taxa
 
 router = APIRouter()
 
